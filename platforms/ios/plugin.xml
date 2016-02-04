@@ -31,7 +31,7 @@
 		</feature>
 	</config-file>
 
-	<!-- core CustomCamera header and source files -->
+	<!-- core CustomCamera header and source filess -->
 	<header-file src="platforms/ios/ioscustomcam/Classes/ioscustomcam.h” />
 	<header-file src="platforms/ios/ioscustomcam/Classes/ioscustomcamViewController.h" />
 	<source-file src="platforms/ios/ioscustomcam/Classes/ioscustomcam.m” />
