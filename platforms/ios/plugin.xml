@@ -8,7 +8,7 @@
 	http://codrspace.com/vote539/writing-a-custom-camera-plugin-for-phonegap/
 </info>
 <engines>
-	<engine name="cordova" version="6.0.0" />
+	<engine name="cordova" version="3.7.0" />
 </engines>
 <js-module src="www/js/ioscustomcam.js" name= "ioscustomcam" >
     <clobbers target="navigator.ioscustomcam"> </clobbers>
