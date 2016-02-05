@@ -10,14 +10,14 @@
 <engines>
 	<engine name="cordova" version="3.1.0" />
 </engines>
-<js-module src="www/js/ioscustomcam.js" name=“ioscustomcam”>
+<js-module src="www/js/ioscustomcam.js" name= "ioscustomcam" >
     <clobbers target="navigator.ioscustomcam"> </clobbers>
     </js-module>
 <platform name="ios">
 	<!-- config file -->
 	<config-file target="config.xml" parent="/*">
-		<feature name=“ioscustomcam”>
-			<param name="ios-package" value=“ioscustomcam” />
+		<feature name= "ioscustomcam">
+			<param name="ios-package" value= "ioscustomcam" />
 		</feature>
 	</config-file>
 	<!-- core CustomCamera header and source filess -->
