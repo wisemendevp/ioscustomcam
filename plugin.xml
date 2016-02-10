@@ -2,10 +2,10 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:rim="http://www.blackberry.com/ns/widgets"
-    id="com.WISEMEN.IOSCamera"
-    version="0.0.1">
+    id="com.WISEMEN.ioscustomcam" version="1.0.0">
     
-    <name>IOSamera</name>
+    
+    <name>ioscustomcam</name>
     <description>PhoneGap plugin to support a custom camera overlay</description>
     <author>Vote 539 and others</author>
     
@@ -14,8 +14,8 @@
         http://codrspace.com/vote539/writing-a-custom-camera-plugin-for-phonegap/
     </info>
     
-    <js-module src="www/js/IOSCamera.js" name="IOSCamera">
-        <clobbers target="navigator.IOSCamera" />
+    <js-module src="www/js/ioscustomcam.js" name="ioscustomcam">
+        <clobbers target="navigator.ioscustomcam" />
     </js-module>
     
     <engines>
@@ -26,17 +26,17 @@
         
         <!-- config file -->
         <config-file target="config.xml" parent="/*">
-            <feature name="IOSCamera">
-                <param name="ios-package" value="IOSCamera" />
+            <feature name="ioscustomcam">
+                <param name="ios-package" value="ioscustomcam" />
             </feature>
         </config-file>
         
         <!-- core CustomCamera header and source files -->
-        <header-file src="platforms/ios/IOSCamera/Classes/IOSCamera.h" />
-        <header-file src="platforms/ios/IOSCamera/Classes/IOSCameraViewController.h" />
-        <source-file src="platforms/ios/IOSCamera/Classes/IOSCamera.m" />
-        <source-file src="platforms/ios/IOSCamera/Classes/IOSCameraViewController.m" />
-        <resource-file src="platforms/ios/IOSCamera/Classes/IOSCameraViewController.xib" />
+        <header-file src="platforms/ios/ioscustomcam/Classes/ioscustomcam.h" />
+        <header-file src="platforms/ios/ioscustomcam/Classes/ioscustomcamViewController.h" />
+        <source-file src="platforms/ios/ioscustomcam/Classes/ioscustomcam.m" />
+        <source-file src="platforms/ios/ioscustomcam/Classes/ioscustomcamViewController.m" />
+        <resource-file src="platforms/ios/ioscustomcam/Classes/ioscustomcamViewController.xib" />
         
     </platform>
     
